@@ -3,3 +3,13 @@
 // sua escolha
 // b. Utilize o loop for of para percorrer o array e exibir a soma dos
 // números na tela
+
+let numeros = [1, 2, 3, 4, 5];
+let soma = 0;
+
+
+for (let i of numeros) {
+    soma += i;
+}
+
+console.log(soma);
